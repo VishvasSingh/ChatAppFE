@@ -1,0 +1,41 @@
+.message {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #d0e268; /* Default background */
+  color: blueviolet;
+  font-size: x-large;
+}
+
+.current-user {
+  justify-content: flex-end; /* Align to the right for current user */
+  background-color: #7ce6df; /* Different background for current user */
+}
+
+.other-user {
+  justify-content: flex-start; /* Align to the left for other users */
+}
+
+.user-icon {
+  width: 40px; /* Adjust size as needed */
+  height: 40px; /* Adjust size as needed */
+  border-radius: 50%; /* Make it circular */
+  margin-right: 10px; /* Space between icon and message */
+}
+
+.message-content {
+  max-width: 70%; /* Limit width of message content */
+}
+
+.username {
+  font-weight: bold; /* Bold username */
+  font-size: x-small;
+}
+
+.timestamp {
+  font-size: 0.8em; /* Smaller font for timestamp */
+  color: gray; /* Color for timestamp */
+  font-size: xx-small;
+}

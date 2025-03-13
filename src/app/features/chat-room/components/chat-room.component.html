@@ -1,0 +1,18 @@
+<p-card header="Chat Room">
+  <div class="messages" #messagesContainer>
+    <app-message
+      *ngFor="let message of messages"
+      [message]="message"
+    ></app-message>
+  </div>
+</p-card>
+<div class="input-area">
+  <input
+    class="input-text"
+    type="text"
+    pInputText
+    [(ngModel)]="value"
+    (keyup.enter)="sendMessage()"
+  />
+  <button pButton (click)="sendMessage()">Send</button>
+</div>
