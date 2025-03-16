@@ -1,0 +1,20 @@
+.card-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;    /* Center vertically */
+    height: 100vh;
+    min-width: 40vw;         /* Full viewport height */
+}
+
+.card-content {
+    min-width: 25vw;
+    min-height: 25vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}

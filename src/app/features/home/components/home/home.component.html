@@ -1,0 +1,15 @@
+<div class="card-container">
+  <p-card header="Please enter User Name">
+    <div class="card-content">
+        <div class="input-container">
+            <input type="text" pInputText [(ngModel)]="username" placeholder="Username"/>
+        </div>
+         
+         <div class="button-container">
+            <p-button label="Submit" (click)="onSubmit()"/>
+         </div>
+        
+    </div>
+    
+  </p-card>
+</div>
